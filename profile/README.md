@@ -1,14 +1,4 @@
 <p align="center">
-  <a href="https://webdecoy.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://webdecoy.com/assets/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://webdecoy.com/assets/logo-light.svg">
-      <img alt="Web Decoy" src="https://webdecoy.com/assets/logo-dark.svg" height="60">
-    </picture>
-  </a>
-</p>
-
-<p align="center">
   <strong>Bot detection and remediation for the AI era.</strong><br>
   Passive honeypots, behavioral analysis, and vision AI CAPTCHA to stop scrapers and sophisticated bots.
 </p>
