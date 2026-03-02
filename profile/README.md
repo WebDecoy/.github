@@ -6,7 +6,8 @@
 <p align="center">
   <a href="https://webdecoy.com">Website</a> &middot;
   <a href="https://webdecoy.com/product/fcaptcha-demo/">Live Demo</a> &middot;
-  <a href="https://www.npmjs.com/package/@webdecoy/node">npm</a>
+  <a href="https://www.npmjs.com/package/@webdecoy/node">npm</a> &middot;
+  <a href="https://wordpress.org/plugins/">WordPress</a>
 </p>
 
 ---
@@ -17,6 +18,7 @@
 |---|---------|-------------|
 | **[FCaptcha](https://github.com/WebDecoy/FCaptcha)** | Self-hosted CAPTCHA | Detects bots, vision AI agents, and headless browsers through 40+ behavioral signals and SHA-256 proof of work. Go, Python, and Node.js servers. Privacy-first, no external dependencies. |
 | **[Node SDK](https://github.com/WebDecoy/node-sdk)** | Bot detection middleware | TLS fingerprinting (JA3/JA4), rate limiting, and rules engine for Express, Fastify, and Next.js. Two-tier analysis with fail-open design. |
+| **[WordPress Plugin](https://github.com/WebDecoy/wordpress-plugin)** | WordPress bot protection | Zero-config bot detection for WordPress and WooCommerce. SHA-256 proof-of-work challenges, behavioral scoring, rate limiting, and carding defense. Works on activation with no external dependencies. |
 
 ### What We're Building
 
@@ -51,6 +53,12 @@ app.use(webdecoy({
 }));
 ```
 
+**WordPress** — install and activate:
+
+1. Download from [GitHub Releases](https://github.com/WebDecoy/wordpress-plugin/releases)
+2. WordPress Admin → Plugins → Add New → Upload Plugin
+3. Activate — protection starts immediately, zero configuration needed
+
 ### Contributing
 
-FCaptcha and the Node SDK are MIT-licensed. Issues and PRs welcome.
+FCaptcha and the Node SDK are MIT-licensed. The WordPress plugin is GPLv2+. Issues and PRs welcome.
